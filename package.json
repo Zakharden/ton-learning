@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@ton/core": "^0.59.1",
+    "@ton/crypto": "^3.3.0",
+    "@ton/ton": "^15.1.0",
+    "ts-node": "^10.9.2"
+  }
+}
