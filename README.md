@@ -5,7 +5,9 @@ prerequisites:
   
 
 start:
-npx ts-node get-wallet-address.ts 
+npm i
+npx tsc get-wallet-address.ts
+node get-wallet-address.js
 
 
 link: 
