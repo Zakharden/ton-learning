@@ -1,14 +1,10 @@
-prerequisites:
-  yum install npm
-  npm install ts-node
-  npm install @ton/ton @ton/crypto @ton/core
-  
-
 start:
-npm i
-npx tsc get-wallet-address.ts
-node get-wallet-address.js
+npm init -y
 
+npm install @ton/core @ton/crypto @ton/ton ts-node typescript
 
-link: 
-https://www.youtube.com/watch?v=vLtAv-RAgmI 
+npx ts-node get-wallet-address.ts
+
+Info about wallet:
+https://testnet.tonviewer.com/kQDJc19TPtCmnsSTkEsofiRFZkKSPClEsrhatluYULEP0URZ
+
