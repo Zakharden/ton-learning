@@ -1,8 +1,28 @@
 {
+  "type": "module",
   "dependencies": {
     "@ton/core": "^0.59.1",
     "@ton/crypto": "^3.3.0",
     "@ton/ton": "^15.1.0",
-    "ts-node": "^10.9.2"
-  }
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "name": "ton-learning",
+  "version": "1.0.0",
+  "description": "prerequisites:   yum install npm   npm install ts-node   npm install @ton/ton @ton/crypto @ton/core",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zakharden/ton-learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zakharden/ton-learning/issues"
+  },
+  "homepage": "https://github.com/Zakharden/ton-learning#readme"
 }
