@@ -9,5 +9,5 @@ async function main() {
     console.log(wallet.address.toString({ testOnly: true}));
     console.log("workchain:" , wallet.address.workChain);
 }
-
+//выводит адрес кошелька
 main();
